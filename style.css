@@ -1,0 +1,143 @@
+header {
+    height : 80px;
+    text-align : center;
+    border : 10 px solid #ae1524;
+}
+header h1 {
+    color : #ae1923;
+    font-style : italic;
+    text-shadow : 3px 3px 4px #e98f95;
+}
+nav {
+    height : 90px;
+    background : #e98f95;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    gap : 60px;
+}
+nav a {
+    color : #fff;
+    text-decoration : none;
+    padding : 10px 30px;
+    border-right : 2px solid #bb329b;
+}
+nav img{
+    width:25px;
+    height:20px;
+    align-items:center;
+    padding :10px 30px;
+    border-right : 2px solid #bb329b;
+}
+nav input {
+    width : 160px;
+    height : 20px;
+}
+.content{
+    display:grid;
+    grid-template-columns : 220px 1fr 350px;
+    gap : 20px;
+    padding : 10px;
+}
+.menu-trai a {
+    display : block;
+    padding : 7px;
+    color : #ffff;
+    text-decoration : none;
+    background-color : #e98f95;
+    border-radius : 15px;
+    margin-bottom:5px;
+    font-size:20px;
+}
+.cafe-img {
+    width : 100%;
+    border-radius:50%;
+    margin-top : 20px;
+}
+main h2 {
+    background-color : #e58b91;
+    color:#a33d43;
+    text-align:left;
+    letter-spacing:38px;
+    font-weight: bold;
+    font-size:36px;
+    padding:3px;
+    margin: 0 auto;
+    width:700px;
+}
+main section{
+    font-size:18px;
+}
+.BTT{
+    color:red;
+}
+button{
+    padding: 10px 10px;
+}
+.In{
+    color :#ddcb29
+}
+.v {
+    color :red;
+}
+form {
+    padding : 10px;
+}
+.row {
+    display : flex;
+    gap : 20px;
+    margin-bottom : 25px;
+}
+.row input:not([type="radio"]){
+    width:50%;
+    height: 50px;
+    box-sizing:border-box;
+    padding:10px;
+} 
+.row select{
+    width:50%;
+    height: 50px;
+    box-sizing:border-box;
+    padding:10px;
+}
+.row .ochon{
+    width:50%;
+    padding:10px;
+}
+textarea{
+    width:100%;
+    height: 100px;
+    box-sizing:border-box;
+    padding:10px;
+}
+.phai {
+    background-color : black;
+    height :700px;
+    color:#fff;
+    padding:10px;
+    margin-bottom:100px;
+}
+.phai h2{
+    margin-top:0;
+}
+.phai img {
+    width:100%;
+}
+.phai h3{
+    margin-left:20px;
+}
+.phai p {
+    padding : 10px;
+}
+.RM {
+    color : red;
+}
+footer {
+    background-color : #e98f95;
+    text-align : center;
+    padding : 25px;
+    color : #fff;
+    font-style : italic;
+    font-size : 36px;
+    font-weight : bold;
+}
