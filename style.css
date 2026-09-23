@@ -1,81 +1,99 @@
+body{
+    border:2px solid #e98f95;
+    margin:0;
+    padding:0;
+}
 header {
-    height : 80px;
+    height : 50px;
     text-align : center;
     border : 10 px solid #ae1524;
 }
 header h1 {
     color : #ae1923;
     font-style : italic;
-    text-shadow : 3px 3px 4px #e98f95;
+    text-shadow : 3px 3px 4px #a4676b;
 }
 nav {
-    height : 90px;
+    height : 35px;
     background : #e98f95;
     display : flex;
     align-items : center;
     justify-content : center;
-    gap : 60px;
+    gap : 15px;
+}
+nav button {
+    width:50px;
+    height:18px;
+    margin-left : 10px;
 }
 nav a {
     color : #fff;
     text-decoration : none;
-    padding : 10px 30px;
+    padding : 7px 15px;
     border-right : 2px solid #bb329b;
 }
 nav img{
-    width:25px;
-    height:20px;
+    width:20px;
+    height:15px;
     align-items:center;
-    padding :10px 30px;
+    padding :10px 25px;
     border-right : 2px solid #bb329b;
 }
+nav c{
+    display:flex;
+    gap:0px;
+}
 nav input {
-    width : 160px;
-    height : 20px;
+    width : 170px;
+    height : 13px;
+    margin-left:50px;
 }
 .content{
     display:grid;
-    grid-template-columns : 220px 1fr 350px;
+    grid-template-columns : 200px 1fr 300px;
     gap : 20px;
-    padding : 10px;
+    padding-top:10px;
 }
 .menu-trai a {
     display : block;
-    padding : 7px;
+    padding : 7px 10px;
     color : #ffff;
     text-decoration : none;
     background-color : #e98f95;
     border-radius : 15px;
-    margin-bottom:5px;
-    font-size:20px;
+    margin-bottom:7px;
+    font-size:14px;
+    margin-left:0px;
 }
 .cafe-img {
     width : 100%;
     border-radius:50%;
     margin-top : 20px;
+    box-shadow:10px 14px 20px #f17f86;
 }
 main h2 {
     background-color : #e58b91;
-    color:#a33d43;
+    color:#940f17;
     text-align:left;
-    letter-spacing:38px;
+    letter-spacing:15px;
     font-weight: bold;
-    font-size:36px;
+    font-size:26px;
     padding:3px;
     margin: 0 auto;
-    width:700px;
+    width:385px;
 }
 main section{
-    font-size:18px;
+    font-size:17px;
 }
 .BTT{
-    color:red;
+    font-weight:800;
+    color:rgb(195, 13, 13);
 }
-button{
+main button{
     padding: 10px 10px;
 }
 .In{
-    color :#ddcb29
+    color :#b0a119
 }
 .v {
     color :red;
@@ -89,55 +107,63 @@ form {
     margin-bottom : 25px;
 }
 .row input:not([type="radio"]){
-    width:50%;
-    height: 50px;
+    width:48%;
+    height: 36px;
     box-sizing:border-box;
     padding:10px;
 } 
 .row select{
-    width:50%;
-    height: 50px;
+    width:48%;
+    height: 36px;
     box-sizing:border-box;
-    padding:10px;
+    padding:5px 4px;
+    font-size:14px;
 }
 .row .ochon{
     width:50%;
-    padding:10px;
+    padding-top:0px;
 }
 textarea{
-    width:100%;
-    height: 100px;
+    width:98%;
+    height: 60px;
     box-sizing:border-box;
     padding:10px;
+    font-weight:900;
 }
 .phai {
     background-color : black;
-    height :700px;
+    height :520px;
     color:#fff;
     padding:10px;
-    margin-bottom:100px;
 }
 .phai h2{
     margin-top:0;
 }
 .phai img {
-    width:100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
 }
 .phai h3{
-    margin-left:20px;
+    margin-left:26px;
+    margin-bottom:0px;
 }
 .phai p {
-    padding : 10px;
+    margin-left:26px;
+    margin-top:0px;
+    margin-bottom:50px;
 }
 .RM {
     color : red;
 }
 footer {
+    height:40px;
     background-color : #e98f95;
     text-align : center;
-    padding : 25px;
+    padding : 10px 20px;
     color : #fff;
     font-style : italic;
-    font-size : 36px;
+    font-size : 30px;
     font-weight : bold;
 }
